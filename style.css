@@ -41,7 +41,7 @@ body{
 .sub-heading{
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 17px;
+    padding: 13px;
     font-size: 17px;
     cursor: pointer;
 }
@@ -74,8 +74,13 @@ body{
     height: 100%;
     background: black;
     align-items: center;
-    text-align: center;
-    position: static;
+}
+.secound-selection-left-image{
+    background-image: url(PARLE/New\ Project.png);
+    background-repeat:no-repeat;
+    background-size: 500px;
+    padding: 50%;
+    background-position: center;
     
 }
 .secound-selection-right{
@@ -106,17 +111,14 @@ body{
     width: 100%;
     height: fit-content;
     margin-left: 130px;
-    margin-top: 165px;
     
 }
 .appyfizz{
     color: white;
     font-size: 80px;
     font-weight: 800;
+    margin-left: -170px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    display: flow-root list-item;
-    margin-top: -20%;
-    margin-left: -4%;
 }
 .rotate-bg{
     align-items: center;
